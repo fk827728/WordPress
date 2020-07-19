@@ -1,10 +1,10 @@
 
 ### Update the database to your own ip address
 
->`UPDATE wp_options SET option_value = replace(option_value,'localhost', 'your_ip_address');`<br>
->`UPDATE wp_posts SET post_content = replace(post_content,'localhost', 'your_ip_address');`<br>
->`UPDATE wp_posts SET guid = replace(guid,'localhost', 'your_ip_address');`<br>
->`UPDATE wp_comments  SET  comment_author_url  = replace( comment_author_url ,'localhost', 'your_ip_address');`
+>`UPDATE wp_options SET option_value = replace(option_value,'localhost/wordpress', 'your_ip_address/WordPress');`<br>
+>`UPDATE wp_posts SET post_content = replace(post_content,'localhost/wordpress', 'your_ip_address/WordPress');`<br>
+>`UPDATE wp_posts SET guid = replace(guid,'localhost/wordpress', 'your_ip_address/WordPress');`<br>
+>`UPDATE wp_comments  SET  comment_author_url  = replace( comment_author_url ,'localhost/wordpress', 'your_ip_address/WordPress');`
 
 ### Modify httpd.conf add the code below
 
